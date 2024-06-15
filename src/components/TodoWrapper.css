@@ -1,36 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-/* * {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #8758ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.App {
-  text-align: center;
-}
-
-h1 {
-  color: #fff;
-  margin-bottom: 0.5rem;
-  font-size: 1.75rem;
-}
-
 .TodoWrapper {
-  background: #1a1a40;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: #1e0635;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
 }
-
+h1 {
+  color: #28a745;
+}
 .TodoForm {
   width: 100%;
   margin-bottom: 1rem;
@@ -39,7 +18,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #a658ff;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -52,7 +31,7 @@ h1 {
 }
 
 .todo-btn {
-  background: #8758ff;
+  background: #5877ff;
   color: #fff;
   border: none;
   padding: 0.55rem;
@@ -63,11 +42,25 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #588dff;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+.mark-as-done-btn {
+  background: #28a76c;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mark-as-done-btn:hover {
+  background: #218838;
 }
 
 .fa-trash {
@@ -88,4 +81,4 @@ h1 {
 .edit-icon,
 .delete-icon {
   cursor: pointer;
-} */
+}
